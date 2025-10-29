@@ -52,6 +52,7 @@
     .tagline{font-size:16px;}
     button{padding:3px 6px;}
     main{padding:120px 16px 32px; text-align: center;}
+    .list{text-align: left;}
   }
   /* Hidden class for toggling */
   .hidden { display: none; }
