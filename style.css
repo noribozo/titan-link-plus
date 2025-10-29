@@ -42,11 +42,16 @@
   a{color:var(--brand); text-decoration:none}
   a:hover{text-decoration:underline}
   hr{border:0; border-top:1px solid #e6e6e6; margin:32px 0}
+
+
   /* Mobile tweaks */
+
   @media (max-width: 720px){
-    header{flex-direction:column; align-items:flex-start}
-    .logo{height:44px}
-    main{padding:120px 16px 32px}
+    header{flex-direction:column; align-items:center;}
+    .logo{height:60px}
+    .tagline{font-size:16px;}
+    button{padding:3px 6px;}
+    main{padding:120px 16px 32px; text-align: center;}
   }
   /* Hidden class for toggling */
   .hidden { display: none; }
